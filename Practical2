@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web Page</title>
+</head>
+
+<body>
+
+    <h2>My Web Page</h2>
+
+    <!-- Image -->
+    <img src="image.jpg" width="200" height="100">
+
+    <br><br>
+
+    <!-- Hyperlink -->
+    <a href="https://www.google.com">
+        Visit Google
+    </a>
+
+    <br><br>
+
+    <!-- Nested Table -->
+    <table border="1">
+        <tr>
+            <td>
+
+                <table border="1">
+                    <tr>
+                        <td>Nested Table</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
