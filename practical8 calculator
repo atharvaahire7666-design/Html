@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple calculator</title>
+    </head>
+    <body>
+        <h1>calculator</h1>
+        <input type="text" id="num1" palceholder="first number"><br><br>
+        <input type="text" id="num2" placeholder="second number"><br><br>
+     <select id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+     </select>
+     <button oneclick="calculate()">calculate</button>
+     <script>
+        function calculate(){
+            let a=parseFloat(document.getElementById("num1").value);
+            let b=parseFloat(docunment.getElementById("num2").value)
+            let op=document.getElementById("op").value;
+             let ans;
+            switch(op){
+                case "+": 
+                    ans=a+b;
+                    break;
+                case "-"
+                    ans=a-b;
+                    break;
+                case "*"
+                 }
+            document.getElementById("result").innerHTML =
+            "Answer ="+ ans;
+        }
+     </script>
+    </body>
+</html>
