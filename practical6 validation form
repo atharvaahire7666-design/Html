@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> validation form</title>
+        <script>
+            function data()
+            var Name=document.getElementById("name").value;
+            var contect=document.getElementId("contect").value
+            var password=document.getElementId("password").value
+            var confirm password=document.getElementId("confirm password").value
+            
+            if(name==""||contect=""||password=""||confirm password=="")
+        {
+             alter("Allfield are mendatory")
+             return false;
+
+        }
+        </script>
+        <form onsubmit=" return data()">
+            userid: <input type="text" id="name"><br><br>
+            contect:<input type="number" id="contect"><br><br>
+            password:<input type="password" id="password"><br><br>
+            confirm password:<input type="password" id="password"><br><br>
+            <input type="submit" value="submit"><br><br>
+        </form>
+
+    </head>
+</html>
