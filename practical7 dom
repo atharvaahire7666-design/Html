@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fun DOM Example</title>
+
+    <style>
+        body{
+            text-align:center;
+            margin-top:100px;
+            font-family:Arial;
+        }
+
+        button{
+            padding:10px 20px;
+            font-size:18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="msg"> Click the Button</h1>
+
+    <button onclick="changeMsg()">Magic</button>
+
+    <script>
+        function changeMsg() {
+
+            var messages = [
+                " Welcome!",
+                " Have a Nice Day!",
+                " JavaScript is Fun!",
+                " Keep Learning DOM!"
+            ];
+
+            var randomText =
+            messages[Math.floor(Math.random() * messages.length)];
+
+            document.getElementById("msg").innerHTML = randomText;
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hello user</title>
+</head>
+<body>
+    <h1 id="text">hello user</h1>
+    <button oneclick="changetext()">click me</button>
+    <script>
+        function changetext() {
+            document.getElementById("text").innerHTML ="welcome to javascript atharva "
+
+        }
+    </script>
+</body>
+</html>
