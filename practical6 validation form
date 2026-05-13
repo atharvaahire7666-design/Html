@@ -4,10 +4,10 @@
         <title> validation form</title>
         <script>
             function data()
-            var Name=document.getElementById("name").value;
-            var contect=document.getElementId("contect").value
-            var password=document.getElementId("password").value
-            var confirm password=document.getElementId("confirm password").value
+            let Name=document.getElementById("name").value;
+            let contect=document.getElementId("contect").value
+            let password=document.getElementId("password").value
+            let confirm password=document.getElementId("confirm password").value
             
             if(name==""||contect=""||password=""||confirm password=="")
         {
